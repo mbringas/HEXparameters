@@ -13,3 +13,9 @@ It converts all HEM or HEO residues into coarse grained HEX.
 
 ## backmap.txt ##
 Lines to add in the sirah_vmdtk.tcl .
+
+###############################################################
+
+To learn more about SIRAH, visit www.sirahff.com and check their articles!
+
+http://www.sirahff.com/2012/06/publications.html
