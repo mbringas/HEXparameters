@@ -1,0 +1,26 @@
+# MAP file version for HEX[Aug 2020]
+
+# SIRAH force field
+
+# ***** [ HEM ]: HEME
+> CGRES
+  CGNAME  HEX
+  ALLNAME  HEM HEO
+# ----------------
+  MAP FE   => FEX
+  MAP FO   => FEX
+
+  MAP CHC  => CBC
+  MAP C3A  => CAX
+
+  MAP CAA  => CPA
+  MAP CGA  => OPA
+  MAP C2B  => CBX
+  MAP CBB  => CVB
+  MAP C3C  => CCX
+  MAP CBC  => CVC
+  MAP C2D  => CDX
+  MAP CAD  => CPD
+  MAP CGD  => OPD
+  MAP CHA  => CAD
+

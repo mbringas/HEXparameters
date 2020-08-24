@@ -1,0 +1,121 @@
+Remark line goes here
+MASS
+FX 50.000        0.000               ATTN, no polarizability parameter
+CP 50.000        0.000               ATTN, no polarizability parameter
+CY 50.000        0.000               ATTN, no polarizability parameter
+CX 50.000        0.000               ATTN, no polarizability parameter
+OX 50.000        0.000               ATTN, no polarizability parameter
+CV 50.000        0.000               ATTN, no polarizability parameter
+
+BOND
+CX-FX   50.00   4.200       ATTN, need revision
+CP-CX   50.00   2.600       ATTN, need revision
+CX-CY   50.00   3.600       ATTN, need revision
+CX-CX   50.00   4.800       ATTN, need revision
+CP-OX   50.00   2.600       ATTN, need revision
+CV-CX   50.00   2.750       ATTN, need revision
+WE-FX   50.00   2.200
+W3-W3   50.00   2.850       !para enlace ditirosina
+
+ANGLE
+CP-CX-FX    0.000       0.000   ATTN, need revision
+CX-CX-FX   10.000      55.000   ATTN, need revision
+CY-CX-FX   10.000      50.000  ! ATTN, need revision
+CV-CX-FX    0.000       0.000   ATTN, need revision
+CP-CX-CX   10.000     140.000  ! ATTN, need revision
+CX-CX-CY   10.000     105.000   ATTN, need revision
+CV-CX-CY    0.000       0.000   ATTN, need revision
+CX-FX-CX   10.000      30.000  ! ATTN, need revision
+CX-CP-CX    0.000       0.000   ATTN, need revision
+CX-CP-OX   10.000     140.000  ! ATTN, need revision
+CV-CX-CX   10.000     140.000  ! ATTN, need revision !!!!!!!!!
+CX-CY-CX   10.000     150.000    ATTN, need revision
+CP-CX-CY    0.000       0.000
+WE-FX-CX   50.000      90.000  !
+WD-WE-FX   50.000     160.000  !
+W2-WE-FX   50.000     160.000  !
+WE-FX-WE   10.000     178.000  !
+W4-W3-W3   10.000     110.000  !                     !!!!!!!!!!!
+W3-W3-W2    0.000       0.000
+W3-W3-W4    0.000       0.000
+W2-W3-W3    0.000       0.000
+
+DIHE
+CX-CP-CX-FX   1    0.000         0.000           2.000
+OX-CP-CX-FX   1    0.000         0.000           2.000
+FX-CX-CX-FX   1    0.000       180.000           2.000
+CY-CX-CX-FX   1    0.000         0.000           2.000
+CV-CX-CX-FX   1    0.000         0.000           2.000
+FX-CX-CY-CX   1    0.000       180.000           2.000
+CP-CX-CX-FX   1    0.000         0.000           2.000
+CP-CX-FX-CX   1    0.000         0.000           2.000
+OX-CP-CX-CP   1    0.000         0.000           2.000
+CP-CX-CX-CY   1    0.000         0.000           2.000
+CP-CX-CX-CV   1    0.000         0.000           2.000
+CY-CX-FX-CX   1    0.000         0.000           2.000
+CX-CX-FX-CX   1    0.000         0.000           2.000
+CV-CX-FX-CX   1    0.000         0.000           2.000
+CX-CP-CX-CX   1    0.000         0.000           2.000
+CX-CP-CX-CP   1    0.000         0.000           2.000
+CX-CX-CY-CX   1   50.000       180.000           1.000!***
+OX-CP-CX-CX   1    0.000         0.000           2.000
+CV-CX-CY-CX   1    0.000         0.000           2.000
+CX-CY-CX-CP   1    0.000         0.000           2.000
+CP-CX-CY-CX   1    0.000         0.000           2.000
+CY-CX-CX-CV   1    0.000         0.000           2.000
+CY-CX-CX-CY   1   50.000       180.000           1.000!**
+CY-CX-CX-CV   1    0.000         0.000           2.000
+CY-CX-CP-OX   1    0.000         0.000           2.000
+OX-CP-CX-CY   1    0.000         0.000           2.000
+WE-FX-CX-CP   1    0.000         0.000           2.000! diedros de conectividad con sHe
+WE-FX-CX-CY   1    0.000         0.000           2.000
+WE-FX-CX-CX   1    0.000         0.000           2.000
+WE-FX-CX-CV   1    0.000         0.000           2.000
+WE-FX-CX-CY   1    0.000         0.000           2.000
+WE-FX-CX-CX   1    0.000         0.000           2.000
+WE-FX-CX-CY   1    0.000         0.000           2.000
+WE-FX-CX-CV   1    0.000         0.000           2.000
+WE-FX-CX-CX   1    0.000         0.000           2.000
+WE-FX-CX-CX   1    0.000         0.000           2.000
+WE-FX-CX-CP   1    0.000         0.000           2.000
+WE-FX-CX-CY   1    0.000         0.000           2.000
+WD-W2-WE-FX   1    0.000         0.000           2.000
+WD-WE-FX-CX   1    0.000         0.000           2.000
+WD-WE-FX-CX   1    0.000         0.000           2.000
+WD-WE-FX-CX   1    0.000         0.000           2.000
+WD-WE-FX-CX   1    0.000         0.000           2.000
+WD-WE-FX-CX   1    0.000         0.000           2.000
+W2-WD-WE-FX   1    0.000         0.000           2.000
+W2-WE-FX-CX   1    0.000         0.000           2.000
+W2-WE-FX-CX   1    0.000         0.000           2.000
+W2-WE-FX-CX   1    0.000         0.000           2.000
+W2-WE-FX-CX   1    0.000         0.000           2.000
+GC-W2-WE-FX   1    0.000         0.000           2.000
+WE-FX-WE-W2   1    0.000         0.000           2.000
+WE-FX-WE-WD   1    0.000         0.000           2.000
+WD-WE-FX-WE   1    0.000         0.000           2.000
+W2-WE-FX-WE   1    0.000         0.000           2.000
+W4-W2-W3-W3   1    0.000         0.000           2.000 !agregado para enlaces ditirosina
+W4-W3-W3-W2   1    0.000         0.000           2.000
+W4-W3-W3-W4   1    0.000         0.000           2.000
+W3-W3-W2-GC   1    0.000         0.000           2.000
+W3-W3-W2-W4   1    0.000         0.000           2.000
+W3-W3-W4-W2   1    0.000         0.000           2.000
+W2-W3-W3-W2   1    0.000         0.000           2.000
+W2-W3-W3-W4   1    0.000         0.000           2.000
+W2-W4-W3-W3   1    0.000         0.000           2.000
+GC-W2-W3-W3   1    0.000         0.000           2.000
+
+
+IMPROPER
+CX-CX-FX-CX         15.0          180.0         2.0
+#CX-CX-FX-CY         25.0          180.0         2.0
+
+NONBON
+  FX          2.234     0.23               ATTN, need revision
+  CP          2.3572    0.4790             ATTN, need revision
+  CY          1.9643    0.4063             ATTN, need revision
+  CX          1.9643    0.4063             ATTN, need revision
+  OX          2.5255    0.1315             ATTN, need revision
+  CV          2.3543    0.4063             ATTN, need revision
+

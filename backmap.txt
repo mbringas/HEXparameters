@@ -1,0 +1,47 @@
+!Insert these lines in the dict definition of backapping residues.
+
+   # Heme
+     dict set backmap                                            \
+         HEX { name  HEM                                         \
+               build { FE  {: FEX} CHC {: CTC} C3A {: CAX}       \
+                      CAA  {: CPA} CGA  {: OPA} C2B {: CBX}      \
+                      CBB  {: CVB} C3C  {: CCX} CBC {: CVC}      \
+                      C2D {: CDX} CAD {: CPD} CGD  {: OPD}       \
+                      CHA {: CAQ}                                \
+                      CHB  {+ { C3A C2D C3C } {2.49 90.0 0 }}
+                      CHD  {+ { C2D C3A C2B } {2.50 90.0 0.0 }}
+                      NA  {+ { FE C2D CHA } {1.95 100.0 0.0 }}
+                      C1A  {+ { FE C2D CHA } {3.0 80.0 0.0 }}
+                      C2A  {+ { FE C2D CHA } {4.2 90.0 0.0 }}
+                      C4A  {+ { FE C3C C2B } {3.10 165.0 0.0 }}
+                      CMA  {+ { C3A FE C2B } {1.56 150.1 0.0 }} 
+                      CBA  {+ { CAA CGA C3A } {1.53 34.54 70.27 }}
+                      O1A  {+ { CGA CAA CHA } {1.26 98.89 -45.78 }}
+                      O2A  {+ { CGA CAA C3A } {1.25 124.58 17.42 }}
+                      NB  {+ { FE C2B CHC } {1.81 6.59 -2.41 }}
+                      C1B  {+ { FE C3A C2B } {2.94 60.0 0 }}
+                      C3B  {+ { C2B CHC CBB } {1.31 29.87 -5.53 }}
+                      C4B  {+ { CHC C2B FE } {1.33 14.61 1.76 }}
+                      CMB  {+ { C2B FE C3A } {1.53 150.0 0.0 }}
+                      CAB  {+ { CBB C2B CHC } {1.47 49.03 -13.99 }}
+                      NC  {+ { FE C3C CHC } {1.95 8.43 -31.57 }}
+                      C1C  {+ { CHC C3C FE } {1.33 13.07 16.36 }}
+                      C2C  {+ { C3C FE C2B } {1.38 80.0 0.0 }}
+                      C4C  {+ { FE CHA C2D } {3.1 110.0 0.0 }}
+                      CMC  {+ { C3C FE C2B } {2.66 100.0 0.0 }}
+                      CAC  {+ { C3C FE C2D } {1.32 150.0 0.0 }}
+                      ND  {+ { FE C2D CHA } {1.9 9.02 -5.79 }}
+                      C1D  {+ { FE CHC C3C } {3.1 110.0 0.0 }} 
+                      C3D  {+ { C2D CAD CHA } {1.34 28.27 2.44 }}
+                      C4D  {+ { CHA C2D CAD } {1.41 15.15 -18.05 }}
+                      CMD  {+ { C2D CAD CGD } {1.53 105.2 -63.52 }}
+                      CBD  {+ { CGD CAD CHA } {1.47 35.75 -74.32 }}
+                      O1D  {+ { CGD CAD C2D } {1.25 111.31 -48.74 }}
+                      O2D  {+ { CGD CAD C2D } {1.26 107.25 -89.04 }}
+                     }
+               print {FE CHA CHB CHC CHD NA C1A C2A C3A C4A CMA \
+                      CAA CBA CGA O1A O2A NB C1B C2B C3B C4B CMB\
+                      CAB CBB NC C1C C2C C3C C4C CMC CAC CBC ND \
+                      C1D C2D C3D C4D CMD CAD CBD CGD O1D O2D} \
+             }                                                   \
+
